@@ -2,7 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf21f31d-d400-4216-9540-b4bc7fcdd86c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webInterface/webInterface/static/js/liveStock.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webInterface/stockAnalyticApp/urls.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/browserconfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/crossdomain.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/doc/TOC.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/doc/css.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/doc/extend.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/doc/faq.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/doc/html.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/doc/js.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/doc/misc.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/doc/usage.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/humans.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/img/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/js/plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/js/vendor/jquery-1.11.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/js/vendor/modernizr-2.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/tile-wide.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/dist/tile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/browserconfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/crossdomain.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/doc/TOC.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/doc/css.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/doc/extend.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/doc/faq.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/doc/html.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/doc/js.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/doc/misc.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/doc/usage.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/humans.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/img/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/js/plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/js/vendor/modernizr-2.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/tile-wide.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/src/tile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/test/file_content.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML_FILE/test/file_existence.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML_FILE/.idea/.name" afterPath="$PROJECT_DIR$/webInterface/stockAnalyticApp/templates/.idea/.name" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML_FILE/.idea/HTML_FILE.iml" afterPath="$PROJECT_DIR$/webInterface/stockAnalyticApp/templates/.idea/HTML_FILE.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML_FILE/.idea/misc.xml" afterPath="$PROJECT_DIR$/webInterface/stockAnalyticApp/templates/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML_FILE/.idea/modules.xml" afterPath="$PROJECT_DIR$/webInterface/stockAnalyticApp/templates/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML_FILE/.idea/vcs.xml" afterPath="$PROJECT_DIR$/webInterface/stockAnalyticApp/templates/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML_FILE/.idea/workspace.xml" afterPath="$PROJECT_DIR$/webInterface/stockAnalyticApp/templates/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webInterface/db.sqlite3" afterPath="$PROJECT_DIR$/webInterface/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webInterface/webInterface/settings.py" afterPath="$PROJECT_DIR$/webInterface/webInterface/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webInterface/webInterface/urls.py" afterPath="$PROJECT_DIR$/webInterface/webInterface/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webInterface/stockAnalyticApp/views.py" afterPath="$PROJECT_DIR$/webInterface/stockAnalyticApp/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="0b7fd02e-3c6d-4b92-a622-e3afad1835fd" name="first Commit" comment="Base Scalfold and some Initial Testing" />
@@ -25,44 +106,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webInterface/manage.py">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webInterface/stockAnalyticApp/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="usage_example.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithms/forcaster_Linear_regression/usage_example.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.14893617">
+              <caret line="151" column="17" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
               <folding>
-                <element signature="e#25#56#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testingAlgo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithms/tesing_algorithm/testingAlgo.py">
+      <file leaf-file-name="jquery.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webInterface/webInterface/static/js/jquery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webInterface/stockAnalyticApp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.055727553">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#22#54#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,17 +144,7 @@
         <entry file="file://$PROJECT_DIR$/webInterface/webInterface/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="backtest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithms/forecaster_QDA/backtest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <caret line="110" column="25" selection-start-line="110" selection-start-column="25" selection-end-line="110" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -107,6 +170,19 @@
         <option value="$PROJECT_DIR$/algorithms/forcaster_Linear_regression/usage_example.py" />
         <option value="$PROJECT_DIR$/algorithms/tesing_algorithm/testingAlgo.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/HTML_FILE/src/js/stock.js" />
+        <option value="$PROJECT_DIR$/HTML_FILE/src/js/main.js" />
+        <option value="$PROJECT_DIR$/HTML_FILE/src/index.html" />
+        <option value="$PROJECT_DIR$/HTML_FILE/src/css/main.css" />
+        <option value="$PROJECT_DIR$/startbootstrap-portfolio-item-1.0.3/index.html" />
+        <option value="$PROJECT_DIR$/template/index.html" />
+        <option value="$PROJECT_DIR$/webInterface/stockAnalyticApp/template/index.html" />
+        <option value="$PROJECT_DIR$/webInterface/stockAnalyticApp/template/js/liveStock.js" />
+        <option value="$PROJECT_DIR$/webInterface/webInterface/urls.py" />
+        <option value="$PROJECT_DIR$/webInterface/stockAnalyticApp/urls.py" />
+        <option value="$PROJECT_DIR$/webInterface/stockAnalyticApp/views.py" />
+        <option value="$PROJECT_DIR$/webInterface/webInterface/settings.py" />
+        <option value="$PROJECT_DIR$/webInterface/stockAnalyticApp/templates/index.html" />
       </list>
     </option>
   </component>
@@ -114,10 +190,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
+    <option name="x" value="377" />
     <option name="y" value="27" />
-    <option name="width" value="1368" />
-    <option name="height" value="742" />
+    <option name="width" value="1006" />
+    <option name="height" value="669" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -143,7 +219,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -159,6 +234,104 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SmartTradingSystemProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StockMarket_ANALYSISUSING_BINARYCLASSIF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartTradingSystemProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webInterface" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StockMarket_ANALYSISUSING_BINARYCLASSIF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartTradingSystemProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webInterface" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webInterface" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StockMarket_ANALYSISUSING_BINARYCLASSIF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartTradingSystemProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webInterface" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webInterface" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StockMarket_ANALYSISUSING_BINARYCLASSIF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartTradingSystemProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webInterface" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webInterface" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StockMarket_ANALYSISUSING_BINARYCLASSIF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartTradingSystemProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webInterface" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stockAnalyticApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -193,6 +366,10 @@
               <option name="myItemId" value="algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forecaster_QDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -214,12 +391,22 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webInterface/webInterface" />
+      <recent name="$PROJECT_DIR$/webInterface/stockAnalyticApp" />
+      <recent name="$PROJECT_DIR$/webInterface/stockAnalyticApp/templates/statics" />
+      <recent name="$PROJECT_DIR$/HTML_FILE" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -360,27 +547,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
+    <frame x="377" y="27" width="1006" height="669" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19330855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24008138" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28407225" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37931034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2835821" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37766832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31527093" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -399,49 +586,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webInterface/manage.py">
+    <entry file="file://$PROJECT_DIR$/webInterface/stockAnalyticApp/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/forcaster_Linear_regression/usage_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
           <folding>
-            <element signature="e#25#56#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webInterface/webInterface/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/forecaster_QDA/backtest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webInterface/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webInterface/webInterface/settings.py">
+    <entry file="file://$PROJECT_DIR$/webInterface/webInterface/static/css/portfolio-item.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -449,15 +604,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webInterface/manage.py">
+    <entry file="file://$PROJECT_DIR$/webInterface/webInterface/static/js/liveStock.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webInterface/webInterface/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/stockAnalyticApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -465,18 +628,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/forecaster_QDA/backtest.py">
+    <entry file="file://$PROJECT_DIR$/webInterface/webInterface/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/stockAnalyticApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/stockAnalyticApp/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="141" column="23" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/webInterface/static/css/portfolio-item.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webInterface/webInterface/settings.py">
+    <entry file="file://$PROJECT_DIR$/webInterface/webInterface/static/js/liveStock.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -485,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -493,9 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="e#25#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -503,15 +692,238 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/webInterface/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/forcaster_Linear_regression/usage_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/tesing_algorithm/testingAlgo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/webInterface/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/forecaster_QDA/backtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/forcaster_Linear_regression/usage_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/webInterface/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/forecaster_QDA/backtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/webInterface/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/webInterface/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.055727553">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.072">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.216">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/webInterface/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/webInterface/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/stockAnalyticApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/stockAnalyticApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/webInterface/static/js/liveStock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3493976">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/webInterface/static/css/portfolio-item.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/tesing_algorithm/testingAlgo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.142857">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/forcaster_Linear_regression/usage_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12392427">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/forecaster_QDA/backtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/webInterface/static/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/webInterface/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="110" column="25" selection-start-line="110" selection-start-column="25" selection-end-line="110" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webInterface/stockAnalyticApp/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14893617">
+          <caret line="151" column="17" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
