@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% block content %}
+
+   <!-- Page Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well"><h3><center><b>Domestic Market</b></center></h3>  </div>
+            <div class="row">
+                <div class="col-xs-6">
+                <div class="panel panel-default" id="NIFTY">
+                    <div class="panel-heading">
+                        <center><b>NSE - SENSEX</b></center>
+                    </div>
+                    <div class="panel-body">
+                        <div class="quoteboard-content">
+                            <div id="sensex_quote" style="font-size: 50px;">_</div>
+                            <span class="glyphicon" ></span>
+                            <div id="sensex_quote_change" >_</div>
+                            <div id="sensex_quote_percentchange"">_</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-xs-6">
+                    <div class="panel panel-default" id="SENSEX">
+                        <div class="panel-heading">
+                            <center><b>BSE - NIFTY</b></center>
+                        </div>
+                        <div class="panel-body">
+                            <div class="quoteboard-content">
+                                <div id="nifty_quote" style="font-size: 50px;">_</div>
+                                <span class="glyphicon"></span>
+                                <div id="nifty_quote_change">_</div>
+                                <div id="nifty_quote_percentchange">_</div>
+                            </div>
+                        </div>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="well"><h3><center><b>Foreign Market</b></center></h3></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="list-group">
+                        <li class="list-group-item">
+                            <span id="shanghai_quote" class="badge">.. <span class="glyphicon"></span> </span>
+                            Shanghai
+                        </li>
+                        <li class="list-group-item">
+                            <span id="euro_quote" class="badge">.. <span class="glyphicon"></span> </span>
+                            EURO STOXX 50
+                        </li>
+
+                        <li class="list-group-item">
+                            <span id="tsec_quote" class="badge">.. <span class="glyphicon"></span> </span>
+                            TSEC
+                        </li>
+                        <li class="list-group-item">
+                            <span id="cac_quote" class="badge">.. <span class="glyphicon"></span> </span>
+                            CAC 40
+                        </li>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
