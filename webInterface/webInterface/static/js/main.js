@@ -47,11 +47,11 @@ $(document).ready(function(){
                         $(placeholders[index]+"_percentchange").html(value);
                     }
 
-                    if( key === 'l_cur'){
+                    if( key === 'l_fix'){
                         $(placeholders[index]).html(value);
                     } }) }) } });
      }// end of func
-     
+
             updateStockDomestic();
             setInterval(updateStockDomestic, 1000);
 
