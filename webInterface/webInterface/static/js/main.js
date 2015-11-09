@@ -3,12 +3,12 @@ $(document).ready(function(){
 
     $("#NIFTY").click(function(e){
         e.preventDefault();
-        window.location = "NIFTY";
+        window.location = "exchanges/NSE";
     });
 
     $("#SENSEX").click(function(e){
         e.preventDefault();
-        window.location = "SENSEX";
+        window.location = "exchanges/BSE";
     });
 
 });

@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!--- content here -->
+
+<div class="container">
+
+    <div class="exchange_banner">
+        <div class="exchange_name">
+            {{name}} ( {{full_name}} )
+        </div>
+        <div class="exchange_description">
+            {{desc}}
+        </div>
+
+    </div>
+
+
+    <div class="exchange_content">
+        <div class="exchange_major_indices">
+            <b>{{name}}</b> Indices :
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                    <th># INDICES NAME </th>
+                </tr>
+                </thead>
+                <tbody>
+
+                {% for indice in indices %}
+                <tr>
+                    <td>{{indice}}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <div class="exchange_news">
+
+        </div>
+
+        <div class="exchange_main_companies">
+            <!--- table -->
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}

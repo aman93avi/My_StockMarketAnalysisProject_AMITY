@@ -55,3 +55,58 @@ footer {
 .list-group-item:hover{
     background-color : #dfdfdf;
 }
+
+.exchange_banner{
+    border-width: 2px;
+    border-style: solid;
+    padding: 40px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.exchange_name{
+    font-size : 50px
+}
+
+.exchange_description{
+    padding: 50px 50px 50px 50px
+    border-width: 1px;
+    font-size : 15px;
+    text-align: justify;
+}
+
+table {
+    width: 50px;
+}
+
+thead, tbody, tr, td, th { display: block; }
+
+tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+thead th {
+    height: 30px;
+
+    /*text-align: left;*/
+}
+
+tbody {
+    height: 120px;
+    overflow-y: auto;
+}
+
+thead {
+    /* fallback */
+}
+
+
+tbody td, thead th {
+    width: 19.2%;
+    float: left;
+}
